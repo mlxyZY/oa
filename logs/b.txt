@@ -1,0 +1,80 @@
+    1  git config --global user.name "mlxyZY"
+    2  git config --global user.email "mlxy_java@163.com"
+    3  git init
+    4  touch a.txt
+    5  git status a.txt
+    6  git add a.txt
+    7  git status a.txt
+    8  git commit -m "test01"
+    9  git status a.txt
+   10  vi a.txt
+   11  cat a.txt
+   12  git status a.txt
+   13  git add a.txt
+   14  git status a.txt
+   15  git commit -m "test02"
+   16  git status a.txt
+   17  git log
+   18  git log --pretty=oneline
+   19  git diff
+   20  git diff
+   21  git reset --hard HEAD^
+   22  GITgiggia
+   23  git status
+   24  git status a.txt
+   25  cat a.txt
+   26  git log
+   27  git reflog
+   28  git reset --hard ec3fdo6
+   29  git status
+   30  cat a.txt
+   31  git reflog
+   32  git reset --hard ec3fdo6
+   33  git reset --hard ec3fd06
+   34  cat a.txt
+   35  git reflog
+   36  git reset --hard HEAD^
+   37  git reset --hard ec3fd06
+   38  git log
+   39  cat a.txt
+   40  more a.txt
+   41  less a.txt
+   42  git diff
+   43  git branch
+   44  git branch dev
+   45  git checkout dev
+   46  git checkout master
+   47  git branch -d dev
+   48  git branch dev
+   49  git checkout dev
+   50  git checkout master
+   51  git branch -d dev
+   52  git branch dev
+   53  git checkout dev
+   54  vi a.txt
+   55  git add a.txt
+   56  git commit -m "test03"
+   57  git status
+   58  cat a.txt
+   59  git checkout master
+   60  vi a.txt
+   61  git merge dev
+   62  git commit -m "test04"
+   63  git add a.txt
+   64  git commit -m "test04"
+   65  git merge dev
+   66  vi a.txt
+   67  git add a.txt
+   68  cat a.txt
+   69  less a.txt
+   70  more a.txt
+   71  git more a.txt
+   72  git commit -m "test05"
+   73  git reflog
+   74  history
+   75  git branch -d dev
+   76  git checkout -b dev
+   77  git checkout master
+   78  git branch -d dev
+   79  clear
+   80  history>b.txt
